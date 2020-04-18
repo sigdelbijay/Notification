@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/showNotificationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:text="show notification"
+        android:textSize="20sp"
+        android:onClick="showNotification"/>
+
+    <Button
+        android:id="@+id/stopNotificationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/showNotificationButton"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:text="stop notification"
+        android:textSize="20sp"
+        android:onClick="stopNotification"/>
+
+    <Button
+        android:id="@+id/setAlaramButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/stopNotificationButton"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:text="set alaram"
+        android:textSize="20sp"
+        android:onClick="setAlaram"/>
+
+
+
+</RelativeLayout>
